@@ -42,4 +42,75 @@ Como a natureza desses ruídos é complicada é melhor que essa operação seja 
 + Abra o arquivo txt em qualquer editor de texto e remova tudo que não é parte do texto. (ex: numero de pagina, Titulo de capitulo, nota de rodapé)
 
 
+## Configuração do ambiente
+
+Antes de prosseguir com o nosso tutorial é necessário ter um ambiente de desenvolvimento preparado para as nossas necessidades. Por sorte praticamente todas as aplicações de Machine Learning em python usam o Jupyter Notebook (antigo IPython Notebook), o que torna a resolução de problemas mais tranquila devido a gigantesca comunidade e torna o ambiente mais versátil. Jupyter Notebook também oferece suporte para as linguagens R e Julia.
+
+### Instalação
+
++ Python 3.7
+
+Antes de instalar verifique se já está instalado (as últimas versões do Ubuntu já vem com python3)
+
+		python3 --version
+
+Se o output for algo do tipo:
+
+		Python 3.7.3
+
+Massa, você pode pular essa parte. (python 3.6 ou 3.8 não devem ter nenhum problema de compatibilidade com esse tutorial)
+
+Caso não tenha python3 instalado execute os seguintes comandos
+
+		sudo apt update
+		sudo apt install software-properties-common
+
+		sudo add-apt-repository ppa:deadsnakes/ppa
+
+		sudo apt update
+		sudo apt install python3.7
+
+Pronto! Lembrando que se o python 3.6 já estiver instalado não é necessário fazer o update.
+
+Lembrando que se você instalou o python 3.7 seguindo esses comandos para usar ele no terminal é necessário usar o comando python3.7 ao invés de python3 ou python
+
++ Pip
+
+Pip é o gerenciador de pacotes do python.
+
+Verifique se ele está instalado com:
+
+		pip3 --version
+
+Se retornar um erro instale com:
+
+		sudo apt install python3-pip
+
++ Packages básicos
+
+Usando pip instale os pacotes básicos para Machine Learning
+
+		pip3 install pandas
+		pip3 install numpy
+		pip3 install nltk
+		pip3 install sklearn
+		pip3 install matplotlib
+		pip3 install tqdm
+
+No decorrer do tutorial irão aparecer outros pacotes.
+
++ Jupyter Notebook
+
+Para instalar:
+
+		python3 -m pip install --upgrade pip
+		python3 -m pip install jupyter
+
+https://jupyter.org/install
+
+Para subir nosso ambiente execute o seguinte comando:
+
+		jupyter notebook
+
+Pronto! O jupyter vai abrir uma página no seu navegador padrão, navegue nela até a pasta code desse repositório e abra o arquivo correspondente a próxima parte deste tutorial
 
