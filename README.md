@@ -4,7 +4,7 @@ Pipeline de Ner do Boitatá.
 
 Essa pipeline/tutorial tem o objetivo de apresentar técnicas básicas de NLP/PLN focando no problema de NER.
 
-Mais imformações sobre NER e o uso de Deep Learning em NLP leia nosso artigo: http://comissoes.sbc.org.br/ce-pln/stil2019/proceedings-stil-2019-Final-Publicacao.pdf (pag 404)
+Mais informações sobre NER e o uso de Deep Learning em NLP leia nosso artigo: http://comissoes.sbc.org.br/ce-pln/stil2019/proceedings-stil-2019-Final-Publicacao.pdf (pag 404)
 
 Nesse tutorial iremos usar o livro Jardim Noia.
 
