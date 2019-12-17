@@ -24,11 +24,11 @@ Para transformar nosso pdf em txt:
 
 + Execute os seguinte comandos:
 
-	pip install pdfminer
+		pip install pdfminer
 
 		pdf2txt.py -o TXT/[NOME_DO_ARQUIVO_DE_SAIDA].txt PDF/[NOME_DO_LIVRO].pdf
 
-		ex:  pdf2txt.py -o TXT/jardim.txt PDF/JARDIMNOIA.pdf
+			ex:  pdf2txt.py -o TXT/jardim.txt PDF/JARDIMNOIA.pdf
 
 Pronto! Agora temos um txt onde podemos começar a trabalhar
 
