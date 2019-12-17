@@ -20,7 +20,7 @@ Como os arquivos do texto não estão em um formato onde técnicas de NLP podem 
 Nossos arquivo estão em pdf, o que não é bom pois não podemos fazer alterações no arquivo. iremos transformar ele em um arquivo txt, que nos dará a liberdade de fazer alterações no texto independente da plataforma utilizada.
 
 Para transformar nosso pdf em txt:
-+ Abra o terminal na pasta raiz desse diretório
++ Abra o terminal na pasta raiz desse repositorio
 
 + Execute os seguinte comandos:
 
