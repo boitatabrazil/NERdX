@@ -42,6 +42,8 @@ Como a natureza desses ruídos é complicada é melhor que essa operação seja 
 + Abra o arquivo txt em qualquer editor de texto e remova tudo que não é parte do texto. (ex: numero de pagina, Titulo de capitulo, nota de rodapé)
 
 
+# Parte 2: Ambiente e PoS tagging
+
 ## Configuração do ambiente
 
 Antes de prosseguir com o nosso tutorial é necessário ter um ambiente de desenvolvimento preparado para as nossas necessidades. Por sorte praticamente todas as aplicações de Machine Learning em python usam o Jupyter Notebook (antigo IPython Notebook), o que torna a resolução de problemas mais tranquila devido a gigantesca comunidade e torna o ambiente mais versátil. Jupyter Notebook também oferece suporte para as linguagens R e Julia.
@@ -113,4 +115,29 @@ Para subir nosso ambiente execute o seguinte comando:
 		jupyter notebook
 
 Pronto! O jupyter vai abrir uma página no seu navegador padrão, navegue nela até a pasta code desse repositório e abra o arquivo correspondente a próxima parte deste tutorial
+
+
+## txt2csv
+
+Usando o jupyter notebook abra o arquivo txt2csv.ipynb nele tranformaremos nosso txt em um csv onde, de maneira simples, faremos a marcação de entidades nomeadas.
+
+# Parte 3: Marcação
+
+abra o arquivo que você acabou de gerar com o txt2csv e para cada token se for Um nome de pessoa mude o valor da coluna NERtag para 1 se for um local mude o valor da coluna NERtag para 2 se não for nenhum dos dois deixe o valor coluna NERtag 0
+
+# Parte 4: NER
+
+		NER
+	
+		né?
+
+		não é.
+
+		-vinicius sampaio
+
+[Estou fazendo ainda]
+
+
+
+
 
